@@ -13,7 +13,7 @@ A Python repository to access AWS APIs
 
 ## Installation
 
-Using Python 3.8.6, Boto3 1.16.54 for development.  
+Using Python 3.8.6, Boto3 1.16.54 for development. https://boto3.amazonaws.com/v1/documentation/api/latest/guide/resources.html 
 
 ```
  pip3 install boto3
