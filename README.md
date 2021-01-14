@@ -61,6 +61,7 @@ The tool has three commands,  space, files and buckets. Space prints all the buc
 usage in b, kb, mb, or gb, and it displays the last time it was touched.  Buckets displays the names 
 of the buckets and the creation date.  files, lists all the files in each bucket. 
 
+Space Usage:
 ```
 $ python s3ls.py --unit k space
 python s3ls.py --unit k space
