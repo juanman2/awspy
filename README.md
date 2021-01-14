@@ -62,9 +62,10 @@ usage in b, kb, mb, or gb, and it displays the last time it was touched.  Bucket
 of the buckets and the creation date.  files, lists all the files in each bucket. 
 
 ```
-$ python s3ls.py --region 'us-west-1' --unit g space
-telleztec-archive              2021-01-13 20:32:12+00:00 2021-01-14 02:50:16+00:00             0.00
-telleztec-fpl                  2021-01-13 20:31:28+00:00 2021-01-13 23:57:37+00:00             0.05
+$ python s3ls.py --unit k space
+python s3ls.py --unit k space
+telleztec-archive              2021-01-13 20:32:12+00:00 2021-01-14 02:50:16+00:00            21.06
+telleztec-fpl                  2021-01-13 20:31:28+00:00 2021-01-13 23:57:37+00:00         47324.54
 ```
 Buckets:
 
