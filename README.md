@@ -1,7 +1,11 @@
 # awspy
 A Python repository to access AWS APIs
 
+## Prerequisites
 
+* I highly recommend using venv, see (https://realpython.com/python-virtual-environments-a-primer/)
+* Python 3.8.6. Other versions of Python 3 should work but have not been tested.
+* AWS S3 account.  This is not designed as a generic S3 interface.
 
 ## References
 
@@ -9,11 +13,10 @@ A Python repository to access AWS APIs
 
 ## Installation
 
-Using Python 3.8.6, Boto3 1.16.54 for development.
+Using Python 3.8.6, Boto3 1.16.54 for development.  
 
 ```
  pip3 install boto3
- pip3 install 
 ``` 
 
 ## AWS Credentials
@@ -44,8 +47,6 @@ was tested against those buckets.
 aws s3 sync `pwd` s3://telleztec-fpl --region us-west-1
 aws s3 sync `pwd` s3://telleztec-archive --region us-west-1
 ```
-
-
 ## Package Creation
 
 The following program was used to create a package:
@@ -86,3 +87,7 @@ telleztec-fpl                                            2021-01-13 23:55:41+00:
 ...
 ```
 
+## TODO
+
+* Top - An option to get the top 10 space users in the buckets
+* Unit Tests
