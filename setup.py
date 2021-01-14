@@ -7,8 +7,9 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name = 'awspy-juanman2',
-    version = '0.01',
+    version = '0.0.1',
     description='Python aws s3 tools for devops',
+    long_description=long_description,
     author='Juan Tellez',
     author_email='juantellez64@gmail.com',
     url='https://github.com/juanman2/awspy',
@@ -20,4 +21,4 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.8',
-    )
+)
